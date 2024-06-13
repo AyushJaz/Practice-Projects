@@ -11,9 +11,9 @@
 .header-container{
     background-image: linear-gradient(transparent, #fdfdfd)
 }
-.header-nav{
+.header-primary-nav{
     display: flex;
-    margin: 6px;
+    margin: 15px 24px;
     padding: 2px;
     gap: 6px;
     justify-content: center;
@@ -21,6 +21,8 @@
 .main-nav__logo__image{
     flex-shrink: 0;
     flex-grow: 0;
+    width: 60px;
+    height: 42px;
 }
 #header-nav-ul{
     text-transform: capitalize;
@@ -37,22 +39,99 @@
     margin: 0px 15px;
 }
 .header-nav-ul-li>a{
-    margin: 0px 6px;
+    margin: 0px 15px;
     color: rgba(0, 0, 0, 0.871);
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 18px;
 }
 .header-nav-ul-li>a>em{
     color: #0000ff;
-    font-size: medium;
+    font-size: 18px;
 }
 .header-nav-ul-li>a>b{
     color: rgba(221, 159, 15, 0.871);
-    font-size: 15px;
+    font-size: 18px;
 }
 #header-hr
 {
     width: 99%;
     margin: auto;
 }
+
+/* primary nav ends */
+
+/* secondr nav begain */
+.header-secondry-nav-ul{
+    display: flex;
+    gap: 15px;
+    margin: 15px 42px;
+}
+.header-secondry-nav-ul>li>a{
+    color: black;
+    font-weight: 600;
+    margin: 0px 33px 0px 0px;
+}
+.header-secondry-nav-ul>li>a>em{
+    color: #ff764d;
+}
+/* secondr nav end */
 /* Header ends */
+
+/* main Starts */
+main>header{
+    height: 698px;
+    width: 93%;
+    margin: 24px auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    font-size: 195px;
+    color: #fd5948;
+    font-weight: 600;
+    background-image: url(https://images.pexels.com/photos/7014939/pexels-photo-7014939.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Main text 1 start  */
+.about-text-one{
+    width: 51%;
+    margin: 100px auto;
+}
+.about-text-one>b{
+    font-size: 23.1px;
+    font-weight: 600;
+    word-spacing: 4.2px;
+    font-size: 26px;
+}
+.about-text-one>b>a{
+    font-size: 24px;
+    font-weight: 600;
+    word-spacing: 4.2px; 
+    color: #0000ff;
+}
+.about-text-one>p{
+    margin-top: 42px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    word-spacing: 4.2px; 
+}
+/* Main text 1 end  */
+
+/* Main collage starts  */
+.main-collag-container{
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-collag-left{
+    width: 50%;
+}
+.main-collag-right{
+    width: 50%;
+}
+/* Main collage ENDS  */
