@@ -6,6 +6,8 @@
     font-family:  "Segoe UI";
     font-size: 18px;
     box-sizing: border-box;
+    text-decoration: none;
+    color: black;
 }
 /* header */
 .header-container{
@@ -297,3 +299,76 @@ main>header{
 .icon{
     color: #0000ff;
 }
+/* jobteaser end*/
+main{
+    margin-bottom: 150px;
+}
+/* Main end */
+
+/* Footer starts  */
+footer{
+    display: flex;
+    width: 87%;
+    justify-content: flex-start;
+    margin: 90px auto;
+    height: 393px;
+}
+/* common css of directe children div of footer starts  */
+footer>div{
+    height: 100%;
+    width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+/* common css of directe children div of footer ends  */
+/* common css for sub divs  start */
+.extra,.comunity,.education{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.comunity>h2,.education>h2,.language-location>h2,.footer-right>h2{
+    margin: 15px 0px;
+    font-size: 24px;
+}
+/* common css for sub divs  ends */
+
+/* css for left footer Starts*/
+.footer-left>h2{
+    font-size: 51px;
+}
+.links>a>i{
+    margin-top: 10px;
+    font-size: 33px;
+}
+/* css for left footer ends */
+/* css for mid footer starts */
+#Location,#Language{
+    width: 150px;
+    background-color:  #eeeeee;
+}
+/* css for mid footer ends */
+/* css for right footer starts */
+.footer-right{
+    display: block;
+}
+.footer-right>p{
+    margin: 15px 0px;
+}
+.input>input{
+    background-color: #eeeeee;
+    width: 240px;
+    border: 0px;
+    padding: 6px;
+}
+.input>button{
+    background-color: #0000ff;
+    color: white;
+    font-size: 20px;
+    width: 105px;
+    border: 0px;
+    margin-left: -4px;
+    padding: 4px;
+}
+/* css for right footer ends */
