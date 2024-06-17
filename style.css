@@ -8,6 +8,7 @@
     box-sizing: border-box;
     text-decoration: none;
     color: black;
+    user-select: none;
 }
 /* header */
 .header-container{
@@ -296,7 +297,7 @@ main>header{
     word-spacing: 6px;
     padding: 6px;
 }
-.icon{
+.bxs-right-arrow{
     color: #0000ff;
 }
 /* jobteaser end*/
